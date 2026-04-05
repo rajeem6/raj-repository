@@ -1,0 +1,149 @@
+html{
+    background-color: darkslategrey;
+}
+
+/* 1st Section */
+.sec1{
+    background-color: rgb(2, 41, 2);
+    width: 100vw;
+    max-width: 456px;
+    border: 12px solid rgb(134, 159, 182);
+    border-radius: 30px;
+    color: aliceblue;
+    padding: 12px;
+}
+
+
+/* 2nd Section */
+.sec2{
+    background-color: rgb(2, 41, 2);
+    width: 100vw;
+    max-width: 654px;
+    border: 12px solid rgb(134, 159, 182);
+    border-radius: 30px;
+    color: aliceblue;
+    padding: 12px;
+    position: relative;
+    top: -170px;
+    right: -800px;
+}
+
+
+/* h1 theme */
+h1{
+    background-color: rgb(134, 159, 182);
+    width: 100vw;
+    max-width: 69px;
+    border: 12px solid rgb(2, 41, 2);
+    border-radius: 30px;
+    color: aliceblue;
+    padding: 12px;
+}
+
+
+/* Aside Content */
+aside{
+    background-color: rgb(66, 122, 76);
+    width: 100vw;
+    max-width: 321px;
+    border: 12px solid rgb(2, 41, 2);
+    border-radius: 30px;
+    color: aliceblue;
+    padding: 12px;
+}
+
+
+/* Footer Element & h5 Element */
+footer{
+    background-color: rgb(2, 41, 2);
+    width: 100vw;
+    max-width: 140px;
+    border: 6px solid rgb(192, 173, 63);
+    border-radius: 30px;
+    color: aliceblue;
+    padding: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+h5{
+    background-color: rgb(2, 41, 2);
+    color: aliceblue;
+    border: 6px solid rgb(134, 159, 182);
+    width: 100vw;
+    max-width: 100px;
+    border-radius: 30px;
+    padding-left: 45px;
+}
+
+
+/* Targetting hr tags! */
+hr{
+    width: 100vw;
+    border: 1px solid rgb(192, 173, 63);
+    border-radius: 30px;
+}
+
+/* Img Pic Adjustments */
+.DrawSketch{
+    /* Sizing & Positioning */
+
+    position: absolute;
+    max-width: 280px;
+    width: 100vw;
+    max-height: 340px;
+    height: 100vh;
+    right: 10%;
+    top: 16.1%;
+
+    /* Framing the Img */
+
+    border: 12px solid rgb(2, 41, 2);
+    border-radius: 30px;
+}
+
+
+
+
+/* HOVER ANIMATIONS! */
+
+
+
+
+/* Section 1; Main content */
+.sec1{
+  transition: 600ms;
+}
+
+.sec1:hover{
+border-color: rgb(66, 122, 76);
+color: rgb(66, 122, 76);
+opacity: 36%;
+
+
+}
+
+
+/* Section 2; Main content */
+.sec2{
+    transition: 600ms;
+}
+
+.sec2:hover{
+border-color: rgb(66, 122, 76);
+color: rgb(66, 122, 76);
+opacity: 36%;
+}
+
+
+
+/* Aside Content Anim */
+aside{
+    transition: 600ms;
+}
+
+aside:hover{
+    border-color: rgb(69, 172, 163);
+color: rgb(4, 34, 22);
+opacity: 36%;
+}
